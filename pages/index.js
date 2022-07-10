@@ -14,14 +14,13 @@ export default function Home() {
 
       <main className="flex flex-col ">
         <div className="flex flex-row justify-around mt-24 px-32 flex-wrap">
-          <div className='flex flex-col'>
+          <div className='flex flex-col justify-center'>
             <p className='text-5xl font-bold '>Locate.</p>
             <p className='text-5xl font-bold mt-10'>Analyze.</p>
             <p className='text-5xl font-bold mt-10'>Implement.</p>
-            <p className='text-2xl w-full md:text-2xl font-light  mt-10'>Attic GIS provides a range of GIS services, you locational data needs analyzing and who else than us.</p>
-          </div>
-          <div className='rounded  md:w-1/4  shadow-xl'>
-            
+            </div>
+          <div className='w-1/4 '>
+            <img src="https://res.cloudinary.com/attic-gis/image/upload/v1656019047/map_rfvxls.png" width="100%" height="100%"/>
           </div>
         </div>
 
